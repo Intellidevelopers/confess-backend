@@ -7,6 +7,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/confession/api/confessions", confessionRoutes);
+app.use("/api/confessions", confessionRoutes);
 
 export default app;
